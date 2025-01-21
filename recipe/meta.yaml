@@ -1,5 +1,5 @@
 {% set name = "ultimate-sitemap-parser" %}
-{% set version = "1.0.0" %}
+{% set version = "1.1.0" %}
 {% set python_min = "3.8" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/ultimate_sitemap_parser-{{ version }}.tar.gz
-  sha256: 0d2577e33d513fd4b5890d013eb42ca4a26f20871c85928f854ffda47063a40c
+  sha256: 2efe8a8bf74478ef29351b480fb67f172676653d2cacc538bd6b1beb0a1e5a35
 
 build:
   noarch: python
@@ -17,8 +17,8 @@ build:
 
 requirements:
   host:
-    - python {{ python_min }}
-    - poetry-core >=1.0.0
+    - python 3.9
+    - poetry-core >=2.0.1
     - pytest-runner >=4.2,<5.0
     - pip
   run:

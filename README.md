@@ -3,11 +3,15 @@ About ultimate-sitemap-parser-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ultimate-sitemap-parser-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/berkmancenter/mediacloud-ultimate_sitemap_parser
+Home: https://ultimate-sitemap-parser.readthedocs.io
 
 Package license: GPL-3.0-or-later
 
-Summary: Ultimate Sitemap Parser
+Summary: A performant library for parsing and crawling sitemaps
+
+Development: https://github.com/GateNLP/ultimate-sitemap-parser
+
+Documentation: https://ultimate-sitemap-parser.readthedocs.io
 
 Current build status
 ====================
