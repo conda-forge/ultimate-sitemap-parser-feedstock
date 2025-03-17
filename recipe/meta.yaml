@@ -1,5 +1,5 @@
 {% set name = "ultimate-sitemap-parser" %}
-{% set version = "1.2.0" %}
+{% set version = "1.3.0" %}
 {% set python_min = "3.8" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/ultimate_sitemap_parser-{{ version }}.tar.gz
-  sha256: b2a3eb214412116c008913ef7345df0ea666c929080bcb92c460f14e27794a57
+  sha256: c2714bb37dfa2968345a50836c1ae782a6f8877815d2322fc6e0290975abaa13
 
 build:
   noarch: python
