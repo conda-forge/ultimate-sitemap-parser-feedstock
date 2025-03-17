@@ -30,6 +30,7 @@ test:
     - usp
   commands:
     - pip check
+    - usp --help
   requires:
     - pip
     - python {{ python_min }}
