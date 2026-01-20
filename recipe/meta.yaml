@@ -20,6 +20,7 @@ requirements:
     - poetry-core >=2.0.1
     - pytest-runner >=4.2,<5.0
     - pip
+    - uv-build >=0.9.6,<0.10.0
   run:
     - python >={{ python_min }}
     - python-dateutil >=2.7,<3.0.0
